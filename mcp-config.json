@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "alloydb-survey": {
+      "command": "python",
+      "args": ["run_server.py"],
+      "cwd": "/Users/namanbajpai/papa",
+      "env": {
+        "ALLOYDB_PROJECT_ID": "your-gcp-project-id",
+        "ALLOYDB_REGION": "us-central1",
+        "ALLOYDB_CLUSTER_ID": "your-cluster-id",
+        "ALLOYDB_INSTANCE_ID": "your-instance-id",
+        "ALLOYDB_DATABASE": "survey_db",
+        "ALLOYDB_USER": "postgres",
+        "ALLOYDB_PASSWORD": "your-password"
+      }
+    }
+  }
+}
